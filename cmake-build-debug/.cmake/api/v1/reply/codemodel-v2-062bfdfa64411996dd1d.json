@@ -1,0 +1,60 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.23"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "shiftCipher_Project",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "shiftCipher_Project::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-shiftCipher_Project-Debug-314e75e155f1893d0c2f.json",
+					"name" : "shiftCipher_Project",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/adityasrivastava/Library/CloudStorage/OneDrive-LouisianaStateUniversity/LSU/Semester 4/CSC 3501/shiftCipher_Project/cmake-build-debug",
+		"source" : "/Users/adityasrivastava/Library/CloudStorage/OneDrive-LouisianaStateUniversity/LSU/Semester 4/CSC 3501/shiftCipher_Project"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}
