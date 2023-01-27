@@ -1,4 +1,4 @@
-//A project to implement ceasar shift cipher.
+//A project to implement Caeasar shift cipher.
 
 #include <stdio.h>
 #include <string.h>
@@ -36,13 +36,12 @@ int main() {
             if (isupper(ch)) {
                 ch = (ch - 'A' + cipher.shift_size) % 26 + 'A';
             }
+            if (isdigit(ch)) {
+                ch = (ch - '0' + cipher.shift_size) % 9 + '0';
+            }
         }
-//        } else {
-//            printf("Invalid Message");
-//        }
         result_answer[i] += ch;
     }
-
     printf("answer: %s", result_answer);
     return 0;
 }
